@@ -1,4 +1,4 @@
-#  Blog-Sharing System
+#  Blog-Sharing-System
 
 This is a Full-Stack Project using HTML/CSS, PHP, MySQL.
 
