@@ -1,6 +1,6 @@
-# BlogNET
+#  Blog-Sharing System
 
-BlogNET is a Blog-Sharing System using HTML/CSS, PHP, MySQL.
+This is a Full-Stack Project using HTML/CSS, PHP, MySQL.
 
 ## Homepage
 [Homepage Link] (http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php)
