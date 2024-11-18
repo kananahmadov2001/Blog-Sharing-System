@@ -5,7 +5,7 @@
 ## Overview
 The Blog-Sharing-System is a dynamic web application where users can share, edit, and search for stories. The platform allows users to personalize their profiles, interact with others' content, and enjoy a safe, curated experience with content filtering. This project emphasizes user engagement and secure, user-friendly design.
 
-## Links
+## Project Link
 - **Homepage**: [Blog-Sharing-System Homepage](http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php)
 
 ## Login Details
