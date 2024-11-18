@@ -1,20 +1,41 @@
-# Blog-Sharing-System
+<div align="center">
+    <h1 id="Header">Blog-Sharing-System</h1>
+</div>
 
-## Homepage
-[Homepage Link] (http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php)
+## Overview
+The Blog-Sharing-System is a dynamic web application where users can share, edit, and search for stories. The platform allows users to personalize their profiles, interact with others' content, and enjoy a safe, curated experience with content filtering. This project emphasizes user engagement and secure, user-friendly design.
 
-## Creative Portion
-For the creative portion of this project:
+## Links
+- **Homepage**: [Blog-Sharing-System Homepage](http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php)
 
-- We implemented a user profile customization feature. Users can now update their profile information, including a bio and social links. This upgrade allows for a more personalized user experience. Press the username once you login to access your profile.
+## Login Details
+Use one of the following credentials to log in:
 
-- We also desgiend a simple search engine to find specific titles or stories from certain authors. Press the  "Search for a story" to search, and you can either leave it blank to see all stories, or type to get the best results by title or author.
+| Username  | Password      |
+|-----------|---------------|
+| bellamy   | `bellamy,2001`|
+| kanan     | `kanan,2001`  |
 
-- We also added a filter for inappropriate words. If you type in common curse words (e.g. "fuck", "shit", "asshole") when editing or creating stories/comments, the words will be censored. This is contigent on your input being delimited by space (e.g. try typing "This is a shit day" as a comment, your output will be "This is a **** day"). 
+Alternatively, create a new account by entering a username and password on the homepage and clicking **Register**. Once registered, you can start adding your own stories and enjoy the platform!
 
-## Additional Login Details (choose one of two users)
-When you navigate to (http://ec2-50-17-104-237.compute-1.amazonaws.com/~kananAhmadov/module-3-group/login.php), use the following login credentials (choose one of two users).
-- Username(s): bellamy ; kanan ;
-- Password(s): bellamy,2001 ; kanan,2001 ;
+## Technologies/Tools Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Asynchronous Communication**: Fetch API for AJAX requests
 
-Or you can create your own user by simply typing the username and password, then clicking on Register. After this, you can start adding your own stories and enjoy the website!
+## Features
+- **User Registration and Login**:
+  - Users can register, log in, and manage their accounts securely.  
+- **Story Management**:
+  - Users can create, edit, and delete stories. Comments can also be added to others' stories.
+- **Profile Customization**:
+  - Users can personalize their profiles by updating their bio and adding social links. Click on the username after logging in to access the profile page.
+- **Search Functionality**:
+  - A simple search engine allows users to find stories by title or author. Clicking on "Search for a story" provides an interface to either search for specific terms or view all available stories.
+- **Inappropriate Word Filter**:
+  - The system filters inappropriate words in stories and comments. For example:
+    - Input: `This is a shit day`
+    - Output: `This is a **** day`
+    - Filtering is triggered when inappropriate words are separated by spaces.
+
